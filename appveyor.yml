@@ -10,11 +10,11 @@ environment:
 
     - PYTHON_VERSION: "3.6"
       PYTHON_ARCH: "32"
-      MINICONDA: C:\Anaconda3
+      MINICONDA: C:\Miniconda
 
     - PYTHON_VERSION: "3.6"
       PYTHON_ARCH: "64"
-      MINICONDA: C:\Anaconda3
+      MINICONDA: C:\Miniconda-x64
 
 branches:
   only:
@@ -43,7 +43,7 @@ install:
   - activate test-environment
 
 build_script:
-  - ls /c/projects/pysptk/lib/SPTK/
+  - ls /c/projects/test/lib/SPTK/
   - git submodule update --init --recursive
   - pip install -e .
 
