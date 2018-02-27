@@ -10,11 +10,11 @@ environment:
 
     - PYTHON_VERSION: "3.6"
       PYTHON_ARCH: "32"
-      MINICONDA: C:\Miniconda3
+      MINICONDA: C:\Anaconda3
 
     - PYTHON_VERSION: "3.6"
       PYTHON_ARCH: "64"
-      MINICONDA: C:\Miniconda3-x64
+      MINICONDA: C:\Anaconda3
 
 branches:
   only:
