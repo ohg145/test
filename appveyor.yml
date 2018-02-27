@@ -43,7 +43,7 @@ install:
   - activate test-environment
 
 build_script:
-  - ls /c/projects/test/lib/SPTK/
+  - ls /c/projects/pysptk/lib/SPTK/
   - git submodule update --init --recursive
   - pip install -e .
 
